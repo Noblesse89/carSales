@@ -1,0 +1,73 @@
+.cabrio {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-cabrio.png");
+    }
+  }
+}
+.coupe {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-coupe.png");
+    }
+  }
+}
+.combi {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-kombi.png");
+    }
+  }
+}
+.mini {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-kleinwagen.png");
+    }
+  }
+}
+.limo {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-limousine.png");
+    }
+  }
+}
+.van {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-transporter.png");
+    }
+  }
+}
+.suv {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-suv.png");
+      filter: grayscale(100%);
+    }
+  }
+}
+.transorter {
+  & .cars_inner {
+    &:before {
+      width: 72px;
+      height: 32px;
+      background-image: url("./assets/img/cp-transporter.png");
+    }
+  }
+}
